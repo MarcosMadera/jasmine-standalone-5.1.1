@@ -25,3 +25,23 @@ describe("concatenation", () => {
         expect(concatenate(str1, str2)).toEqual("Hello World");
     });
 });
+
+//test 3
+
+describe("Array Length Check", () => {
+    it("should have a length of 4", () => {
+        const arr = [1, 2, 3, 4];
+        expect(arr.length).toBe(4);
+    });
+});
+
+
+//test 4
+
+const btnInsert = document.querySelector("#btnInsert");
+
+btnInsert.innerHTML = `
+<button class="btn">Count</button>
+`
+
+
