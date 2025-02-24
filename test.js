@@ -40,8 +40,7 @@ describe("Array Length Check", () => {
 
 const btnInsert = document.querySelector("#btnInsert");
 
-btnInsert.innerHTML = `
-<button class="btn">Count</button>
-`
+btnInsert.innerHTML = 
+
 
 
